@@ -14,14 +14,14 @@ public class PlayerAnimatiorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("w")
+        if (Input.GetKey("w"))
         {
             animator.SetBool("isWalking",true);
         }
         else
         {
-            animator.SetBool("isWalking", false);
+            animator.SetBool("isWalking",false);
 
         }
-    }
+    }w
 }
